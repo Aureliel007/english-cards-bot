@@ -1,0 +1,13 @@
+[
+    {"word": "Она", "tr": "She", "var_1": "We", "var_2": "Her", "var_3": "He", "is_base": true},
+    {"word": "Стол", "tr": "Table", "var_1": "Chair", "var_2": "Stool", "var_3": "Boat", "is_base": true},
+    {"word": "Юбка", "tr": "Skirt", "var_1": "Dress", "var_2": "Wear", "var_3": "Coat", "is_base": true},
+    {"word": "Зонт", "tr": "Umbrella", "var_1": "Raincoat", "var_2": "Jacket", "var_3": "Sword", "is_base": true},
+    {"word": "Кукла", "tr": "Doll", "var_1": "Toy", "var_2": "Barbie", "var_3": "Thing", "is_base": true},
+    {"word": "Творог", "tr": "Cottage cheese", "var_1": "Cheese", "var_2": "Sour cream", "var_3": "Milk", "is_base": true},
+    {"word": "Хурма", "tr": "Persimmon", "var_1": "Eggplant", "var_2": "Orange", "var_3": "Pineapple", "is_base": true},
+    {"word": "Помада", "tr": "Lipctick", "var_1": "Lipgloss", "var_2": "Pencil", "var_3": "Stick", "is_base": true},
+    {"word": "Змея", "tr": "Snake", "var_1": "Python", "var_2": "Boa", "var_3": "Anaconda", "is_base": true},
+    {"word": "Мир", "tr": "Peace", "var_1": "Piece", "var_2": "War", "var_3": "Price", "is_base": true},
+    {"word": "Солнце", "tr": "Sun", "var_1": "Moon", "var_2": "Son", "var_3": "Fire", "is_base": true}
+]
