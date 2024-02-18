@@ -64,3 +64,4 @@ def add_word(session, message, added_word):
     session.commit()
     session.execute(users_words.insert().values(user_id=message.from_user.id, word_id=word.id))
     session.commit()
+    

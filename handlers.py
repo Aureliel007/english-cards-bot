@@ -116,7 +116,7 @@ async def process_cancel(message: Message, state: FSMContext):
 # Этот хендлер получает слово, которое нужно удалить, и удаляет его
 async def process_word_delete(message: Message, state: FSMContext):
     word_to_del = message.text
-    result = del_word(session, message, word_to_del)
+    result = del_word(session, message, word_to_del)    # Удаляет слово из базы
     await state.clear()
     builder = ReplyKeyboardBuilder().add(KeyboardButton(text='Дальше ⏭'))
     await message.answer(
@@ -164,7 +164,7 @@ async def process_var_3_sent(message: Message, state: FSMContext):
     builder = ReplyKeyboardBuilder().add(KeyboardButton(text='Дальше ⏭'))
     await state.update_data(var_3=message.text)
     added_word = await state.get_data()
-    add_word(session, message, added_word)
+    add_word(session, message, added_word)  # Добавляет слово в базу
     await state.clear()
     await message.answer(
         text='Спасибо! Новое слово добавлено. '
@@ -181,3 +181,4 @@ async def other_messages(message: Message):
         'Нажмите "Начать", чтобы запустить тренажер',
         reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
     )
+    

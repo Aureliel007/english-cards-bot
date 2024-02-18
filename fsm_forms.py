@@ -13,3 +13,4 @@ class CheckTranslate(StatesGroup):
 
 class WordToDelete(StatesGroup):
     word_to_del = State()
+    
