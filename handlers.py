@@ -1,4 +1,4 @@
-from random import shuffle, choice
+from random import choice
 
 from aiogram import Dispatcher
 from aiogram.fsm.context import FSMContext
@@ -44,13 +44,10 @@ async def process_start_words(message: Message, state: FSMContext):
     word = get_word(session, message)   # Получаем случайное слово из базы
     await state.set_state(CheckTranslate.tr_word)
     await state.update_data(tr_word=word)
-    var_buttons = [
-        word.tr, word.var_1, word.var_2, word.var_3
-    ]
-    builder = keyboard_builder(var_buttons)
+    builder = keyboard_builder(word)
     await state.set_state(CheckTranslate.var)
     await message.answer(
-        f'Выбери перевод слова:\n"{word.word}"',
+        f'Выбери перевод слова:\n«{word["word"]}»',
         reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
     )
 
@@ -59,7 +56,7 @@ async def process_check_translate(message: Message, state: FSMContext):
     await state.update_data(var=message.text)
     data = await state.get_data()
     word = data.get('tr_word')
-    if message.text.lower() == word.tr.lower():
+    if message.text.lower() == word['tr'].lower():
         builder = main_buttons()
         answer = ['Правильно!', 'Совершенно верно!', 'Точно!', 'Отлично!', 'Прекрасно!']
         await state.clear()
@@ -68,15 +65,12 @@ async def process_check_translate(message: Message, state: FSMContext):
             reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
         )
     else:
-        var_buttons = [
-        word.tr, word.var_1, word.var_2, word.var_3
-    ]
-        builder = keyboard_builder(var_buttons)
+        builder = keyboard_builder(word)
         answer = ['Неверный ответ', 'Неправильный ответ', 'Неправильно']
         await state.set_state(CheckTranslate.var)
         await message.answer(
             f'{choice(answer)}, попробуйте еще раз\n'
-            f'Слово "{word.word}"',
+            f'Слово «{word["word"]}»',
             reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
         )
 
@@ -101,7 +95,7 @@ async def process_word_fillform(message: Message, state: FSMContext):
         'Или нажмите /cancel для отмены',
         reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
     )
-    await state.set_state(AddWordForm.word)
+    await state.set_state(AddWordForm.rus)
 
 # Если пользователь передумал добавлять слово и нажал /cancel
 async def process_cancel(message: Message, state: FSMContext):
@@ -126,43 +120,16 @@ async def process_word_delete(message: Message, state: FSMContext):
 
 async def process_word_sent(message: Message, state: FSMContext):
     builder = ReplyKeyboardBuilder().add(KeyboardButton(text='/cancel'))
-    await state.update_data(word=message.text)
+    await state.update_data(rus=message.text.capitalize())
     await message.answer(
         text='Теперь введите правильный перевод слова на английском 🇬🇧',
         reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
     )
-    await state.set_state(AddWordForm.tr)
+    await state.set_state(AddWordForm.eng)
 
-async def process_tr_sent(message: Message, state: FSMContext):
-    builder = ReplyKeyboardBuilder().add(KeyboardButton(text='/cancel'))
-    await state.update_data(tr=message.text)
-    await message.answer(
-        text='Введите первый вариант неправильного перевода на английский',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
-    )
-    await state.set_state(AddWordForm.var_1)
-
-async def process_var_1_sent(message: Message, state: FSMContext):
-    builder = ReplyKeyboardBuilder().add(KeyboardButton(text='/cancel'))
-    await state.update_data(var_1=message.text)
-    await message.answer(
-        text='Введите второй вариант неправильного перевода на английский',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
-    )
-    await state.set_state(AddWordForm.var_2)
-
-async def process_var_2_sent(message: Message, state: FSMContext):
-    builder = ReplyKeyboardBuilder().add(KeyboardButton(text='/cancel'))
-    await state.update_data(var_2=message.text)
-    await message.answer(
-        text='Введите третий вариант неправильного перевода на английский',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
-    )
-    await state.set_state(AddWordForm.var_3)
-
-async def process_var_3_sent(message: Message, state: FSMContext):
+async def process_translate_sent(message: Message, state: FSMContext):
     builder = ReplyKeyboardBuilder().add(KeyboardButton(text='Дальше ⏭'))
-    await state.update_data(var_3=message.text)
+    await state.update_data(eng=message.text.capitalize())
     added_word = await state.get_data()
     add_word(session, message, added_word)  # Добавляет слово в базу
     await state.clear()
@@ -181,4 +148,3 @@ async def other_messages(message: Message):
         'Нажмите "Начать", чтобы запустить тренажер',
         reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
     )
-    
