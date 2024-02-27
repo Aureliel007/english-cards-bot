@@ -18,7 +18,7 @@ async def process_start_command(message: Message):
     new_user(session, message)  #запись нового юзера в базу данных
     button_1 = KeyboardButton(text='Начать')
     button_2 = KeyboardButton(text='/help')
-    keyboard = ReplyKeyboardMarkup(keyboard=[[button_1, button_2]], resize_keyboard=True, one_time_keyboard=True)
+    keyboard = ReplyKeyboardMarkup(keyboard=[[button_1, button_2]], resize_keyboard=True)
     await message.answer(
     'Привет 👋 Давай попрактикуемся в английском языке. ' 
     'Тренировки можешь проходить в удобном для себя темпе.',
@@ -36,7 +36,7 @@ async def process_help_command(message: Message):
         '- добавить слово ➕,\n'
         '- удалить слово 🔙.\n'
         'Ну что, начнём ⬇️',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+        reply_markup=builder.as_markup(resize_keyboard=True)
     )
 
 # Этот хендлер будет срабатывать на кнопку "начать"
@@ -48,7 +48,7 @@ async def process_start_words(message: Message, state: FSMContext):
     await state.set_state(CheckTranslate.var)
     await message.answer(
         f'Выбери перевод слова:\n«{word["word"]}»',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+        reply_markup=builder.as_markup(resize_keyboard=True)
     )
 
 # Этот хендлер проверяет вариант ответа на правильность
@@ -62,7 +62,7 @@ async def process_check_translate(message: Message, state: FSMContext):
         await state.clear()
         await message.answer(
             f'{choice(answer)} Продолжаем?', 
-            reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+            reply_markup=builder.as_markup(resize_keyboard=True)
         )
     else:
         builder = keyboard_builder(word)
@@ -71,7 +71,7 @@ async def process_check_translate(message: Message, state: FSMContext):
         await message.answer(
             f'{choice(answer)}, попробуйте еще раз\n'
             f'Слово «{word["word"]}»',
-            reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+            reply_markup=builder.as_markup(resize_keyboard=True)
         )
 
 # Этот хендлер начинает процесс удаления слова
@@ -81,7 +81,7 @@ async def delete_word(message: Message, state: FSMContext):
     await message.answer(
         'Введите слово на русском 🇷🇺 которое нужно удалить '
         'или нажмите /cancel если передумали',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+        reply_markup=builder.as_markup(resize_keyboard=True)
     )
     await state.set_state(WordToDelete.word_to_del)
 
@@ -93,7 +93,7 @@ async def process_word_fillform(message: Message, state: FSMContext):
     await message.answer(
         text='Введите слово на русском 🇷🇺\n'
         'Или нажмите /cancel для отмены',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+        reply_markup=builder.as_markup(resize_keyboard=True)
     )
     await state.set_state(AddWordForm.rus)
 
@@ -103,7 +103,7 @@ async def process_cancel(message: Message, state: FSMContext):
     await message.answer(
         text='Чтобы вернуться к изучению слов, '
              'нажмите "Дальше ⏭"',
-             reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+             reply_markup=builder.as_markup(resize_keyboard=True)
     )
     await state.clear()
 
@@ -115,7 +115,7 @@ async def process_word_delete(message: Message, state: FSMContext):
     builder = ReplyKeyboardBuilder().add(KeyboardButton(text='Дальше ⏭'))
     await message.answer(
         text=result,
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+        reply_markup=builder.as_markup(resize_keyboard=True)
     )
 
 async def process_word_sent(message: Message, state: FSMContext):
@@ -123,7 +123,7 @@ async def process_word_sent(message: Message, state: FSMContext):
     await state.update_data(rus=message.text.capitalize())
     await message.answer(
         text='Теперь введите правильный перевод слова на английском 🇬🇧',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+        reply_markup=builder.as_markup(resize_keyboard=True)
     )
     await state.set_state(AddWordForm.eng)
 
@@ -137,7 +137,7 @@ async def process_translate_sent(message: Message, state: FSMContext):
         text='Спасибо! Новое слово добавлено. '
         'Чтобы вернуться к изучению слов, '
         'нажмите "Дальше ⏭"',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+        reply_markup=builder.as_markup(resize_keyboard=True)
     )
 
 # Обрабатывает сообщения, которые не попали в фильтры
@@ -146,5 +146,5 @@ async def other_messages(message: Message):
     await message.answer(
         'Не знаю такой команды.\n'
         'Нажмите "Начать", чтобы запустить тренажер',
-        reply_markup=builder.as_markup(resize_keyboard=True, one_time_keyboard=True)
+        reply_markup=builder.as_markup(resize_keyboard=True)
     )
