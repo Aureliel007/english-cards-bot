@@ -17,8 +17,8 @@ class Users(Base):
 class Words(Base):
     __tablename__ = 'words'
     id = sq.Column(sq.Integer, primary_key=True)
-    rus = sq.Column(sq.String(length=20), nullable=False)
-    eng = sq.Column(sq.String(length=20), nullable=False)
+    rus = sq.Column(sq.String(length=50), nullable=False)
+    eng = sq.Column(sq.String(length=50), nullable=False)
     users = relationship('Users', secondary=users_words, back_populates='words', cascade='all, delete')
 
 

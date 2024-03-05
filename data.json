@@ -1,31 +1,2794 @@
 [
-    {"rus": "Она", "eng": "She"},
-    {"rus": "Стол", "eng": "Table"},
-    {"rus": "Юбка", "eng": "Skirt"},
-    {"rus": "Зонт", "eng": "Umbrella"},
-    {"rus": "Кукла", "eng": "Doll"},
-    {"rus": "Творог", "eng": "Cottage cheese"},
-    {"rus": "Хурма", "eng": "Persimmon"},
-    {"rus": "Помада", "eng": "Lipctick"},
-    {"rus": "Змея", "eng": "Snake"},
-    {"rus": "Мир", "eng": "Peace"},
-    {"rus": "Солнце", "eng": "Sun"},
-    {"rus": "Достаточно", "eng": "Enough"},
-    {"rus": "Никогда", "eng": "Never"},
-    {"rus": "Завтра", "eng": "Tomorrow"},
-    {"rus": "Сегодня", "eng": "Today"},
-    {"rus": "Очень", "eng": "Very"},
-    {"rus": "Учитель", "eng": "Teacher"},
-    {"rus": "Доказательство", "eng": "Evidence"},
-    {"rus": "Сила", "eng": "Power"},
-    {"rus": "Правда", "eng": "Truth"},
-    {"rus": "Стакан", "eng": "Glass"},
-    {"rus": "Отпуск", "eng": "Vacation"},
-    {"rus": "Расходы", "eng": "Expense"},
-    {"rus": "Душ", "eng": "Shower"},
-    {"rus": "Настроение", "eng": "Mood"},
-    {"rus": "Горький", "eng": "Bitter"},
-    {"rus": "Лето", "eng": "Summer"},
-    {"rus": "Брюки", "eng": "Trousers"},
-    {"rus": "Коробка", "eng": "Box"}
+    {
+        "rus": "Быть",
+        "eng": "Be"
+    },
+    {
+        "rus": "И",
+        "eng": "And"
+    },
+    {
+        "rus": "Иметь",
+        "eng": "Have"
+    },
+    {
+        "rus": "Для",
+        "eng": "For"
+    },
+    {
+        "rus": "Делать",
+        "eng": "Do"
+    },
+    {
+        "rus": "Сказать",
+        "eng": "Say"
+    },
+    {
+        "rus": "Этот",
+        "eng": "This"
+    },
+    {
+        "rus": "Они",
+        "eng": "They"
+    },
+    {
+        "rus": "Но",
+        "eng": "But"
+    },
+    {
+        "rus": "Мы",
+        "eng": "We"
+    },
+    {
+        "rus": "Она",
+        "eng": "She"
+    },
+    {
+        "rus": "Или",
+        "eng": "Or"
+    },
+    {
+        "rus": "Идти",
+        "eng": "Go"
+    },
+    {
+        "rus": "Кто",
+        "eng": "Who"
+    },
+    {
+        "rus": "Получать",
+        "eng": "Get"
+    },
+    {
+        "rus": "Если",
+        "eng": "If"
+    },
+    {
+        "rus": "Мое",
+        "eng": "My"
+    },
+    {
+        "rus": "Делать",
+        "eng": "Make"
+    },
+    {
+        "rus": "Знать",
+        "eng": "Know"
+    },
+    {
+        "rus": "Будет",
+        "eng": "Will"
+    },
+    {
+        "rus": "Вверх",
+        "eng": "Up"
+    },
+    {
+        "rus": "Один",
+        "eng": "One"
+    },
+    {
+        "rus": "Время",
+        "eng": "Time"
+    },
+    {
+        "rus": "Там",
+        "eng": "There"
+    },
+    {
+        "rus": "Год",
+        "eng": "Year"
+    },
+    {
+        "rus": "Думать",
+        "eng": "Think"
+    },
+    {
+        "rus": "Когда",
+        "eng": "When"
+    },
+    {
+        "rus": "Который",
+        "eng": "Which"
+    },
+    {
+        "rus": "Некоторые",
+        "eng": "Some"
+    },
+    {
+        "rus": "Люди",
+        "eng": "People"
+    },
+    {
+        "rus": "Брать",
+        "eng": "Take"
+    },
+    {
+        "rus": "Из/вне",
+        "eng": "Out"
+    },
+    {
+        "rus": "Видеть",
+        "eng": "See"
+    },
+    {
+        "rus": "Твой",
+        "eng": "Your"
+    },
+    {
+        "rus": "Приходить",
+        "eng": "Come"
+    },
+    {
+        "rus": "Сейчас",
+        "eng": "Now"
+    },
+    {
+        "rus": "Другой",
+        "eng": "Other"
+    },
+    {
+        "rus": "Как",
+        "eng": "How"
+    },
+    {
+        "rus": "Наше",
+        "eng": "Our"
+    },
+    {
+        "rus": "Два",
+        "eng": "Two"
+    },
+    {
+        "rus": "Больше",
+        "eng": "More"
+    },
+    {
+        "rus": "Эти",
+        "eng": "These"
+    },
+    {
+        "rus": "Хотеть",
+        "eng": "Want"
+    },
+    {
+        "rus": "Способ",
+        "eng": "Way"
+    },
+    {
+        "rus": "Выглядит",
+        "eng": "Look"
+    },
+    {
+        "rus": "Первый",
+        "eng": "First"
+    },
+    {
+        "rus": "Также",
+        "eng": "Also"
+    },
+    {
+        "rus": "Новый",
+        "eng": "New"
+    },
+    {
+        "rus": "Потому что",
+        "eng": "Because"
+    },
+    {
+        "rus": "День",
+        "eng": "Day"
+    },
+    {
+        "rus": "Больше",
+        "eng": "More"
+    },
+    {
+        "rus": "Использовать",
+        "eng": "Use"
+    },
+    {
+        "rus": "Нет",
+        "eng": "No"
+    },
+    {
+        "rus": "Человек/мужчина",
+        "eng": "Man"
+    },
+    {
+        "rus": "Находить",
+        "eng": "Find"
+    },
+    {
+        "rus": "Здесь",
+        "eng": "Here"
+    },
+    {
+        "rus": "Вещь",
+        "eng": "Thing"
+    },
+    {
+        "rus": "Давать",
+        "eng": "Give"
+    },
+    {
+        "rus": "Много",
+        "eng": "Many"
+    },
+    {
+        "rus": "Хорошо",
+        "eng": "Well"
+    },
+    {
+        "rus": "Только",
+        "eng": "Only"
+    },
+    {
+        "rus": "Рассказывать",
+        "eng": "Tell"
+    },
+    {
+        "rus": "Очень",
+        "eng": "Very"
+    },
+    {
+        "rus": "Даже",
+        "eng": "Even"
+    },
+    {
+        "rus": "Назад",
+        "eng": "Back"
+    },
+    {
+        "rus": "Любой",
+        "eng": "Any"
+    },
+    {
+        "rus": "Хороший",
+        "eng": "Good"
+    },
+    {
+        "rus": "Женщина",
+        "eng": "Woman"
+    },
+    {
+        "rus": "Мысль",
+        "eng": "Thought"
+    },
+    {
+        "rus": "Нам/нас",
+        "eng": "Us"
+    },
+    {
+        "rus": "Жизнь",
+        "eng": "Life"
+    },
+    {
+        "rus": "Ребенок",
+        "eng": "Child"
+    },
+    {
+        "rus": "Туда",
+        "eng": "There"
+    },
+    {
+        "rus": "Работать",
+        "eng": "Work"
+    },
+    {
+        "rus": "Вниз",
+        "eng": "Down"
+    },
+    {
+        "rus": "Многие",
+        "eng": "Many"
+    },
+    {
+        "rus": "После",
+        "eng": "After"
+    },
+    {
+        "rus": "Должен",
+        "eng": "Should"
+    },
+    {
+        "rus": "Звать",
+        "eng": "Call"
+    },
+    {
+        "rus": "Мир",
+        "eng": "World"
+    },
+    {
+        "rus": "Сверх",
+        "eng": "Over"
+    },
+    {
+        "rus": "Школа",
+        "eng": "School"
+    },
+    {
+        "rus": "До сих пор",
+        "eng": "Still"
+    },
+    {
+        "rus": "Пытаться",
+        "eng": "Try"
+    },
+    {
+        "rus": "Последний",
+        "eng": "Last"
+    },
+    {
+        "rus": "Спрашивать",
+        "eng": "Ask"
+    },
+    {
+        "rus": "Нуждаться",
+        "eng": "Need"
+    },
+    {
+        "rus": "Тоже",
+        "eng": "Too"
+    },
+    {
+        "rus": "Чувствовать",
+        "eng": "Feel"
+    },
+    {
+        "rus": "Когда",
+        "eng": "When"
+    },
+    {
+        "rus": "Никогда",
+        "eng": "Never"
+    },
+    {
+        "rus": "Становиться",
+        "eng": "Become"
+    },
+    {
+        "rus": "Между",
+        "eng": "Between"
+    },
+    {
+        "rus": "Высокий",
+        "eng": "High"
+    },
+    {
+        "rus": "Действительно",
+        "eng": "Really"
+    },
+    {
+        "rus": "Что-нибудь",
+        "eng": "Something"
+    },
+    {
+        "rus": "Большинство",
+        "eng": "Most"
+    },
+    {
+        "rus": "Другой",
+        "eng": "Another"
+    },
+    {
+        "rus": "Много",
+        "eng": "Much"
+    },
+    {
+        "rus": "Семья",
+        "eng": "Family"
+    },
+    {
+        "rus": "Личный",
+        "eng": "Own"
+    },
+    {
+        "rus": "Покидать",
+        "eng": "Leave"
+    },
+    {
+        "rus": "Положил",
+        "eng": "Put"
+    },
+    {
+        "rus": "Старый",
+        "eng": "Old"
+    },
+    {
+        "rus": "Значит",
+        "eng": "Mean"
+    },
+    {
+        "rus": "Хранить",
+        "eng": "Keep"
+    },
+    {
+        "rus": "Студент",
+        "eng": "Student"
+    },
+    {
+        "rus": "Почему",
+        "eng": "Why"
+    },
+    {
+        "rus": "Позволять",
+        "eng": "Let"
+    },
+    {
+        "rus": "Великий/отличный",
+        "eng": "Great"
+    },
+    {
+        "rus": "Одинаковый/такой же",
+        "eng": "Same"
+    },
+    {
+        "rus": "Большой",
+        "eng": "Big"
+    },
+    {
+        "rus": "Группа",
+        "eng": "Group"
+    },
+    {
+        "rus": "Начинать",
+        "eng": "Begin"
+    },
+    {
+        "rus": "Казаться",
+        "eng": "Seem"
+    },
+    {
+        "rus": "Страна",
+        "eng": "Country"
+    },
+    {
+        "rus": "Помогать",
+        "eng": "Help"
+    },
+    {
+        "rus": "Общаться",
+        "eng": "Talk"
+    },
+    {
+        "rus": "Где",
+        "eng": "Where"
+    },
+    {
+        "rus": "Поворачивать",
+        "eng": "Turn"
+    },
+    {
+        "rus": "Проблема",
+        "eng": "Problem"
+    },
+    {
+        "rus": "Каждый",
+        "eng": "Every"
+    },
+    {
+        "rus": "Рука",
+        "eng": "Hand"
+    },
+    {
+        "rus": "Американский",
+        "eng": "American"
+    },
+    {
+        "rus": "Показывать",
+        "eng": "Show"
+    },
+    {
+        "rus": "Часть",
+        "eng": "Part"
+    },
+    {
+        "rus": "О/об",
+        "eng": "About"
+    },
+    {
+        "rus": "Против",
+        "eng": "Against"
+    },
+    {
+        "rus": "Место",
+        "eng": "Place"
+    },
+    {
+        "rus": "Сверх",
+        "eng": "Over"
+    },
+    {
+        "rus": "Снова",
+        "eng": "Again"
+    },
+    {
+        "rus": "Несколько",
+        "eng": "Few"
+    },
+    {
+        "rus": "Случай",
+        "eng": "Case"
+    },
+    {
+        "rus": "Неделя",
+        "eng": "Week"
+    },
+    {
+        "rus": "Компания",
+        "eng": "Company"
+    },
+    {
+        "rus": "Где",
+        "eng": "Where"
+    },
+    {
+        "rus": "Система",
+        "eng": "System"
+    },
+    {
+        "rus": "Каждый",
+        "eng": "Each"
+    },
+    {
+        "rus": "Программа",
+        "eng": "Program"
+    },
+    {
+        "rus": "Слышать",
+        "eng": "Hear"
+    },
+    {
+        "rus": "Вопрос",
+        "eng": "Question"
+    },
+    {
+        "rus": "На протяжении",
+        "eng": "During"
+    },
+    {
+        "rus": "Играть",
+        "eng": "Play"
+    },
+    {
+        "rus": "Правительство",
+        "eng": "Government"
+    },
+    {
+        "rus": "Бежать",
+        "eng": "Run"
+    },
+    {
+        "rus": "Маленький",
+        "eng": "Small"
+    },
+    {
+        "rus": "Всегда",
+        "eng": "Always"
+    },
+    {
+        "rus": "Двигаться",
+        "eng": "Move"
+    },
+    {
+        "rus": "Нравиться",
+        "eng": "Like"
+    },
+    {
+        "rus": "Ночь",
+        "eng": "Night"
+    },
+    {
+        "rus": "Жить",
+        "eng": "Live"
+    },
+    {
+        "rus": "Точка",
+        "eng": "Point"
+    },
+    {
+        "rus": "Верить",
+        "eng": "Believe"
+    },
+    {
+        "rus": "Держать",
+        "eng": "Hold"
+    },
+    {
+        "rus": "Сегодня",
+        "eng": "Today"
+    },
+    {
+        "rus": "Нести",
+        "eng": "Bring"
+    },
+    {
+        "rus": "Случаться",
+        "eng": "Happen"
+    },
+    {
+        "rus": "Следующий",
+        "eng": "Next"
+    },
+    {
+        "rus": "Без",
+        "eng": "Without"
+    },
+    {
+        "rus": "Раньше",
+        "eng": "Before"
+    },
+    {
+        "rus": "Огромный",
+        "eng": "Large"
+    },
+    {
+        "rus": "Должен",
+        "eng": "Must"
+    },
+    {
+        "rus": "Дом",
+        "eng": "Home"
+    },
+    {
+        "rus": "Под",
+        "eng": "Under"
+    },
+    {
+        "rus": "Вода",
+        "eng": "Water"
+    },
+    {
+        "rus": "Комната",
+        "eng": "Room"
+    },
+    {
+        "rus": "Пиать",
+        "eng": "Write"
+    },
+    {
+        "rus": "Мама",
+        "eng": "Mother"
+    },
+    {
+        "rus": "Местность",
+        "eng": "Area"
+    },
+    {
+        "rus": "Национальный",
+        "eng": "National"
+    },
+    {
+        "rus": "Деньги",
+        "eng": "Money"
+    },
+    {
+        "rus": "История",
+        "eng": "Story"
+    },
+    {
+        "rus": "Молодой",
+        "eng": "Young"
+    },
+    {
+        "rus": "Факт",
+        "eng": "Fact"
+    },
+    {
+        "rus": "Месяц",
+        "eng": "Month"
+    },
+    {
+        "rus": "Разный",
+        "eng": "Different"
+    },
+    {
+        "rus": "Много",
+        "eng": "Lot"
+    },
+    {
+        "rus": "Право",
+        "eng": "Right"
+    },
+    {
+        "rus": "Учить",
+        "eng": "Study"
+    },
+    {
+        "rus": "Книга",
+        "eng": "Book"
+    },
+    {
+        "rus": "Глаз",
+        "eng": "Eye"
+    },
+    {
+        "rus": "Работа",
+        "eng": "Job"
+    },
+    {
+        "rus": "Слово",
+        "eng": "Word"
+    },
+    {
+        "rus": "Сторона",
+        "eng": "Side"
+    },
+    {
+        "rus": "Вид",
+        "eng": "Kind"
+    },
+    {
+        "rus": "Четыре",
+        "eng": "Four"
+    },
+    {
+        "rus": "Голова",
+        "eng": "Head"
+    },
+    {
+        "rus": "Далекий",
+        "eng": "Far"
+    },
+    {
+        "rus": "Черный",
+        "eng": "Black"
+    },
+    {
+        "rus": "Длинный",
+        "eng": "Long"
+    },
+    {
+        "rus": "Оба",
+        "eng": "Both"
+    },
+    {
+        "rus": "Маленький",
+        "eng": "Little"
+    },
+    {
+        "rus": "Дом",
+        "eng": "House"
+    },
+    {
+        "rus": "После",
+        "eng": "After"
+    },
+    {
+        "rus": "Долго",
+        "eng": "Long"
+    },
+    {
+        "rus": "Снабжать",
+        "eng": "Provide"
+    },
+    {
+        "rus": "Сервис",
+        "eng": "Service"
+    },
+    {
+        "rus": "Вокруг",
+        "eng": "Around"
+    },
+    {
+        "rus": "Друг",
+        "eng": "Friend"
+    },
+    {
+        "rus": "Важный",
+        "eng": "Important"
+    },
+    {
+        "rus": "Отец",
+        "eng": "Father"
+    },
+    {
+        "rus": "Сидеть",
+        "eng": "Sit"
+    },
+    {
+        "rus": "Вне/далеко",
+        "eng": "Away"
+    },
+    {
+        "rus": "До тех пор",
+        "eng": "Until"
+    },
+    {
+        "rus": "Сила",
+        "eng": "Power"
+    },
+    {
+        "rus": "Час",
+        "eng": "Hour"
+    },
+    {
+        "rus": "Игра",
+        "eng": "Game"
+    },
+    {
+        "rus": "Часто",
+        "eng": "Often"
+    },
+    {
+        "rus": "Линия",
+        "eng": "Line"
+    },
+    {
+        "rus": "Конец",
+        "eng": "End"
+    },
+    {
+        "rus": "Среди",
+        "eng": "Among"
+    },
+    {
+        "rus": "Стоять",
+        "eng": "Stand"
+    },
+    {
+        "rus": "Плохой",
+        "eng": "Bad"
+    },
+    {
+        "rus": "Терять",
+        "eng": "Lose"
+    },
+    {
+        "rus": "Однако",
+        "eng": "However"
+    },
+    {
+        "rus": "Участник",
+        "eng": "Member"
+    },
+    {
+        "rus": "Платить",
+        "eng": "Pay"
+    },
+    {
+        "rus": "Закон",
+        "eng": "Law"
+    },
+    {
+        "rus": "Встречать",
+        "eng": "Meet"
+    },
+    {
+        "rus": "Автомобиль",
+        "eng": "Car"
+    },
+    {
+        "rus": "Город",
+        "eng": "City"
+    },
+    {
+        "rus": "Почти",
+        "eng": "Almost"
+    },
+    {
+        "rus": "Включать (напр. в список)",
+        "eng": "Include"
+    },
+    {
+        "rus": "Продолжать",
+        "eng": "Continue"
+    },
+    {
+        "rus": "Устанавливать",
+        "eng": "Set"
+    },
+    {
+        "rus": "Позднее/позже",
+        "eng": "Later"
+    },
+    {
+        "rus": "Сообщество",
+        "eng": "Community"
+    },
+    {
+        "rus": "Имя",
+        "eng": "Name"
+    },
+    {
+        "rus": "Пять",
+        "eng": "Five"
+    },
+    {
+        "rus": "Однажды",
+        "eng": "Once"
+    },
+    {
+        "rus": "Белый",
+        "eng": "White"
+    },
+    {
+        "rus": "Наименее",
+        "eng": "Least"
+    },
+    {
+        "rus": "Учить",
+        "eng": "Learn"
+    },
+    {
+        "rus": "Настоящий/реальный",
+        "eng": "Real"
+    },
+    {
+        "rus": "Менять",
+        "eng": "Change"
+    },
+    {
+        "rus": "Команда",
+        "eng": "Team"
+    },
+    {
+        "rus": "Минута",
+        "eng": "Minute"
+    },
+    {
+        "rus": "Лучший",
+        "eng": "Best"
+    },
+    {
+        "rus": "Несколько",
+        "eng": "Several"
+    },
+    {
+        "rus": "Идея",
+        "eng": "Idea"
+    },
+    {
+        "rus": "Ребенок",
+        "eng": "Kid"
+    },
+    {
+        "rus": "Тело",
+        "eng": "Body"
+    },
+    {
+        "rus": "Информация",
+        "eng": "Information"
+    },
+    {
+        "rus": "Ничего",
+        "eng": "Nothing"
+    },
+    {
+        "rus": "Тому назад",
+        "eng": "Ago"
+    },
+    {
+        "rus": "Право",
+        "eng": "Right"
+    },
+    {
+        "rus": "Вести/руководить",
+        "eng": "Lead"
+    },
+    {
+        "rus": "Социальный",
+        "eng": "Social"
+    },
+    {
+        "rus": "Понимать",
+        "eng": "Understand"
+    },
+    {
+        "rus": "Без разницы",
+        "eng": "Whatever"
+    },
+    {
+        "rus": "Зад",
+        "eng": "Back"
+    },
+    {
+        "rus": "Смотреть",
+        "eng": "Watch"
+    },
+    {
+        "rus": "Вместе",
+        "eng": "Together"
+    },
+    {
+        "rus": "Вокруг",
+        "eng": "Around"
+    },
+    {
+        "rus": "Родитель",
+        "eng": "Parent"
+    },
+    {
+        "rus": "Останавливаться",
+        "eng": "Stop"
+    },
+    {
+        "rus": "Лицо",
+        "eng": "Face"
+    },
+    {
+        "rus": "Что-нибудь",
+        "eng": "Anything"
+    },
+    {
+        "rus": "Создавать",
+        "eng": "Create"
+    },
+    {
+        "rus": "Общественный",
+        "eng": "Public"
+    },
+    {
+        "rus": "Уже",
+        "eng": "Already"
+    },
+    {
+        "rus": "Говорить",
+        "eng": "Speak"
+    },
+    {
+        "rus": "Другие",
+        "eng": "Others"
+    },
+    {
+        "rus": "Читать",
+        "eng": "Read"
+    },
+    {
+        "rus": "Уровень",
+        "eng": "Level"
+    },
+    {
+        "rus": "Разрешать",
+        "eng": "Allow"
+    },
+    {
+        "rus": "Добавлять",
+        "eng": "Add"
+    },
+    {
+        "rus": "Проводить",
+        "eng": "Spend"
+    },
+    {
+        "rus": "Дверь",
+        "eng": "Door"
+    },
+    {
+        "rus": "Здоровье",
+        "eng": "Health"
+    },
+    {
+        "rus": "Человек",
+        "eng": "Person"
+    },
+    {
+        "rus": "Искусство",
+        "eng": "Art"
+    },
+    {
+        "rus": "Война",
+        "eng": "War"
+    },
+    {
+        "rus": "История",
+        "eng": "History"
+    },
+    {
+        "rus": "Вечеринка",
+        "eng": "Party"
+    },
+    {
+        "rus": "В пределах",
+        "eng": "Within"
+    },
+    {
+        "rus": "Расти",
+        "eng": "Grow"
+    },
+    {
+        "rus": "Результат",
+        "eng": "Result"
+    },
+    {
+        "rus": "Открывать",
+        "eng": "Open"
+    },
+    {
+        "rus": "Менять",
+        "eng": "Change"
+    },
+    {
+        "rus": "Утро",
+        "eng": "Morning"
+    },
+    {
+        "rus": "Гулять",
+        "eng": "Walk"
+    },
+    {
+        "rus": "Причина",
+        "eng": "Reason"
+    },
+    {
+        "rus": "Низкий",
+        "eng": "Low"
+    },
+    {
+        "rus": "Побеждать",
+        "eng": "Win"
+    },
+    {
+        "rus": "Исследование",
+        "eng": "Research"
+    },
+    {
+        "rus": "Девочка",
+        "eng": "Girl"
+    },
+    {
+        "rus": "Парень",
+        "eng": "Guy"
+    },
+    {
+        "rus": "Рано",
+        "eng": "Early"
+    },
+    {
+        "rus": "Еда",
+        "eng": "Food"
+    },
+    {
+        "rus": "Ранее",
+        "eng": "Before"
+    },
+    {
+        "rus": "Сам",
+        "eng": "Himself"
+    },
+    {
+        "rus": "Воздух",
+        "eng": "Air"
+    },
+    {
+        "rus": "Учитель",
+        "eng": "Teacher"
+    },
+    {
+        "rus": "Сила",
+        "eng": "Force"
+    },
+    {
+        "rus": "Предлагать",
+        "eng": "Offer"
+    },
+    {
+        "rus": "Достаточно",
+        "eng": "Enough"
+    },
+    {
+        "rus": "Оба",
+        "eng": "Both"
+    },
+    {
+        "rus": "Образование",
+        "eng": "Education"
+    },
+    {
+        "rus": "Через",
+        "eng": "Across"
+    },
+    {
+        "rus": "Помнить",
+        "eng": "Remember"
+    },
+    {
+        "rus": "Еда",
+        "eng": "Food"
+    },
+    {
+        "rus": "Второй",
+        "eng": "Second"
+    },
+    {
+        "rus": "Мальчик",
+        "eng": "Boy"
+    },
+    {
+        "rus": "Возможно",
+        "eng": "Maybe"
+    },
+    {
+        "rus": "Способен",
+        "eng": "Able"
+    },
+    {
+        "rus": "Возраст",
+        "eng": "Age"
+    },
+    {
+        "rus": "Любовь",
+        "eng": "Love"
+    },
+    {
+        "rus": "Музыка",
+        "eng": "Music"
+    },
+    {
+        "rus": "Включая",
+        "eng": "Including"
+    },
+    {
+        "rus": "Рассматривать",
+        "eng": "Consider"
+    },
+    {
+        "rus": "Появляться",
+        "eng": "Appear"
+    },
+    {
+        "rus": "На самом деле",
+        "eng": "Actually"
+    },
+    {
+        "rus": "Покупать",
+        "eng": "Buy"
+    },
+    {
+        "rus": "Вероятно",
+        "eng": "Probably"
+    },
+    {
+        "rus": "Человек",
+        "eng": "Human"
+    },
+    {
+        "rus": "Ждать",
+        "eng": "Wait"
+    },
+    {
+        "rus": "Обслуживать",
+        "eng": "Serve"
+    },
+    {
+        "rus": "Рынок",
+        "eng": "Market"
+    },
+    {
+        "rus": "Умирать",
+        "eng": "Die"
+    },
+    {
+        "rus": "Отправлять",
+        "eng": "Send"
+    },
+    {
+        "rus": "Ожидать",
+        "eng": "Expect"
+    },
+    {
+        "rus": "Строить",
+        "eng": "Build"
+    },
+    {
+        "rus": "Оставаться",
+        "eng": "Stay"
+    },
+    {
+        "rus": "Падать",
+        "eng": "Fall"
+    },
+    {
+        "rus": "Резать",
+        "eng": "Cut"
+    },
+    {
+        "rus": "Колледж",
+        "eng": "College"
+    },
+    {
+        "rus": "Интерес",
+        "eng": "Interest"
+    },
+    {
+        "rus": "Кое-кто",
+        "eng": "Someone"
+    },
+    {
+        "rus": "Опыт",
+        "eng": "Experience"
+    },
+    {
+        "rus": "Сзади/за",
+        "eng": "Behind"
+    },
+    {
+        "rus": "Достигать",
+        "eng": "Reach"
+    },
+    {
+        "rus": "Местный",
+        "eng": "Local"
+    },
+    {
+        "rus": "Шесть",
+        "eng": "Six"
+    },
+    {
+        "rus": "Использовать",
+        "eng": "Use"
+    },
+    {
+        "rus": "Да (разг.)",
+        "eng": "Yep"
+    },
+    {
+        "rus": "Предлагать",
+        "eng": "Suggest"
+    },
+    {
+        "rus": "Класс",
+        "eng": "Class"
+    },
+    {
+        "rus": "Расти",
+        "eng": "Raise"
+    },
+    {
+        "rus": "Забота",
+        "eng": "Care"
+    },
+    {
+        "rus": "Возможно",
+        "eng": "Perhaps"
+    },
+    {
+        "rus": "Тяжелый",
+        "eng": "Hard"
+    },
+    {
+        "rus": "Поле",
+        "eng": "Field"
+    },
+    {
+        "rus": "Проходить",
+        "eng": "Pass"
+    },
+    {
+        "rus": "Продавать",
+        "eng": "Sell"
+    },
+    {
+        "rus": "Основной",
+        "eng": "Major"
+    },
+    {
+        "rus": "Иногда",
+        "eng": "Sometimes"
+    },
+    {
+        "rus": "Требовать",
+        "eng": "Require"
+    },
+    {
+        "rus": "Сами",
+        "eng": "Themselves"
+    },
+    {
+        "rus": "Докладывать",
+        "eng": "Report"
+    },
+    {
+        "rus": "Роль",
+        "eng": "Role"
+    },
+    {
+        "rus": "Лучше",
+        "eng": "Better"
+    },
+    {
+        "rus": "Экономический",
+        "eng": "Economic"
+    },
+    {
+        "rus": "Усилия",
+        "eng": "Effort"
+    },
+    {
+        "rus": "Решать",
+        "eng": "Decide"
+    },
+    {
+        "rus": "Темп",
+        "eng": "Rate"
+    },
+    {
+        "rus": "Сильный",
+        "eng": "Strong"
+    },
+    {
+        "rus": "Возможный",
+        "eng": "Possible"
+    },
+    {
+        "rus": "Сердце",
+        "eng": "Heart"
+    },
+    {
+        "rus": "Лекарство",
+        "eng": "Drug"
+    },
+    {
+        "rus": "Показывать",
+        "eng": "Show"
+    },
+    {
+        "rus": "Свет",
+        "eng": "Light"
+    },
+    {
+        "rus": "Голос",
+        "eng": "Voice"
+    },
+    {
+        "rus": "Жена",
+        "eng": "Wife"
+    },
+    {
+        "rus": "Целый",
+        "eng": "Whole"
+    },
+    {
+        "rus": "Полиция",
+        "eng": "Police"
+    },
+    {
+        "rus": "Разум",
+        "eng": "Mind"
+    },
+    {
+        "rus": "Наконец",
+        "eng": "Finally"
+    },
+    {
+        "rus": "Тянуть",
+        "eng": "Pull"
+    },
+    {
+        "rus": "Возвращаться",
+        "eng": "Return"
+    },
+    {
+        "rus": "Бесплатный/свободный",
+        "eng": "Free"
+    },
+    {
+        "rus": "Военный",
+        "eng": "Military"
+    },
+    {
+        "rus": "Цена",
+        "eng": "Price"
+    },
+    {
+        "rus": "Отчет",
+        "eng": "Report"
+    },
+    {
+        "rus": "Меньше",
+        "eng": "Less"
+    },
+    {
+        "rus": "В соответствии",
+        "eng": "According"
+    },
+    {
+        "rus": "Решение",
+        "eng": "Decision"
+    },
+    {
+        "rus": "Объяснять",
+        "eng": "Explain"
+    },
+    {
+        "rus": "Сын",
+        "eng": "Son"
+    },
+    {
+        "rus": "Надеяться",
+        "eng": "Hope"
+    },
+    {
+        "rus": "Даже",
+        "eng": "Even"
+    },
+    {
+        "rus": "Видение",
+        "eng": "View"
+    },
+    {
+        "rus": "Отношение",
+        "eng": "Relationship"
+    },
+    {
+        "rus": "Нести",
+        "eng": "Carry"
+    },
+    {
+        "rus": "Город",
+        "eng": "Town"
+    },
+    {
+        "rus": "Дорога",
+        "eng": "Road"
+    },
+    {
+        "rus": "Водить",
+        "eng": "Drive"
+    },
+    {
+        "rus": "Рука",
+        "eng": "Arm"
+    },
+    {
+        "rus": "Правильный",
+        "eng": "True"
+    },
+    {
+        "rus": "Ломать",
+        "eng": "Break"
+    },
+    {
+        "rus": "Лучше",
+        "eng": "Better"
+    },
+    {
+        "rus": "Разница",
+        "eng": "Difference"
+    },
+    {
+        "rus": "Получать",
+        "eng": "Receive"
+    },
+    {
+        "rus": "Значение",
+        "eng": "Value"
+    },
+    {
+        "rus": "Международный",
+        "eng": "International"
+    },
+    {
+        "rus": "Постройка",
+        "eng": "Building"
+    },
+    {
+        "rus": "Действие",
+        "eng": "Action"
+    },
+    {
+        "rus": "Полный",
+        "eng": "Full"
+    },
+    {
+        "rus": "Присоединяться",
+        "eng": "Join"
+    },
+    {
+        "rus": "Сезон",
+        "eng": "Season"
+    },
+    {
+        "rus": "Общество",
+        "eng": "Society"
+    },
+    {
+        "rus": "Так как/потому что",
+        "eng": "Because"
+    },
+    {
+        "rus": "Налог",
+        "eng": "Tax"
+    },
+    {
+        "rus": "Директор",
+        "eng": "Director"
+    },
+    {
+        "rus": "Ранний",
+        "eng": "Early"
+    },
+    {
+        "rus": "Позиция/должность",
+        "eng": "Position"
+    },
+    {
+        "rus": "Игрок",
+        "eng": "Player"
+    },
+    {
+        "rus": "Соглашаться",
+        "eng": "Agree"
+    },
+    {
+        "rus": "Особенно",
+        "eng": "Especially"
+    },
+    {
+        "rus": "Записывать",
+        "eng": "Record"
+    },
+    {
+        "rus": "Выбрать/взять",
+        "eng": "Pick"
+    },
+    {
+        "rus": "Носить (одежду)",
+        "eng": "Wear"
+    },
+    {
+        "rus": "Бумага",
+        "eng": "Paper"
+    },
+    {
+        "rus": "Специльный",
+        "eng": "Special"
+    },
+    {
+        "rus": "Пространство",
+        "eng": "Space"
+    },
+    {
+        "rus": "Земля/почва",
+        "eng": "Ground"
+    },
+    {
+        "rus": "Поддержка",
+        "eng": "Support"
+    },
+    {
+        "rus": "Событие",
+        "eng": "Event"
+    },
+    {
+        "rus": "Чей",
+        "eng": "Whose"
+    },
+    {
+        "rus": "Иметь значение",
+        "eng": "Matter"
+    },
+    {
+        "rus": "Пара",
+        "eng": "Couple"
+    },
+    {
+        "rus": "Конец",
+        "eng": "End"
+    },
+    {
+        "rus": "Поражать (цель)",
+        "eng": "Hit"
+    },
+    {
+        "rus": "Основа",
+        "eng": "Base"
+    },
+    {
+        "rus": "Занятие",
+        "eng": "Activity"
+    },
+    {
+        "rus": "Звезда",
+        "eng": "Star"
+    },
+    {
+        "rus": "Стол",
+        "eng": "Table"
+    },
+    {
+        "rus": "Необходимость",
+        "eng": "Need"
+    },
+    {
+        "rus": "Производить",
+        "eng": "Produce"
+    },
+    {
+        "rus": "Есть",
+        "eng": "Eat"
+    },
+    {
+        "rus": "Масло",
+        "eng": "Oil"
+    },
+    {
+        "rus": "Половина",
+        "eng": "Half"
+    },
+    {
+        "rus": "Ситуация",
+        "eng": "Situation"
+    },
+    {
+        "rus": "Легко",
+        "eng": "Easy"
+    },
+    {
+        "rus": "Стоимость",
+        "eng": "Cost"
+    },
+    {
+        "rus": "Индустрия",
+        "eng": "Industry"
+    },
+    {
+        "rus": "Фигура",
+        "eng": "Figure"
+    },
+    {
+        "rus": "Лицо",
+        "eng": "Face"
+    },
+    {
+        "rus": "Улица",
+        "eng": "Street"
+    },
+    {
+        "rus": "Изображение",
+        "eng": "Image"
+    },
+    {
+        "rus": "Само",
+        "eng": "Itself"
+    },
+    {
+        "rus": "Телефон",
+        "eng": "Phone"
+    },
+    {
+        "rus": "Данные",
+        "eng": "Data"
+    },
+    {
+        "rus": "Покрывать",
+        "eng": "Cover"
+    },
+    {
+        "rus": "Картинка",
+        "eng": "Picture"
+    },
+    {
+        "rus": "Чисто",
+        "eng": "Clear"
+    },
+    {
+        "rus": "Практика",
+        "eng": "Practice"
+    },
+    {
+        "rus": "Недавний",
+        "eng": "Recent"
+    },
+    {
+        "rus": "Описывать",
+        "eng": "Describe"
+    },
+    {
+        "rus": "Стена",
+        "eng": "Wall"
+    },
+    {
+        "rus": "Пациент",
+        "eng": "Patient"
+    },
+    {
+        "rus": "Рабочий",
+        "eng": "Worker"
+    },
+    {
+        "rus": "Новости",
+        "eng": "News"
+    },
+    {
+        "rus": "Фильм",
+        "eng": "Movie"
+    },
+    {
+        "rus": "Север",
+        "eng": "North"
+    },
+    {
+        "rus": "Личный",
+        "eng": "Personal"
+    },
+    {
+        "rus": "Помощь",
+        "eng": "Support"
+    },
+    {
+        "rus": "Легко",
+        "eng": "Simply"
+    },
+    {
+        "rus": "Третий",
+        "eng": "Third"
+    },
+    {
+        "rus": "Ловить",
+        "eng": "Catch"
+    },
+    {
+        "rus": "Шаг",
+        "eng": "Step"
+    },
+    {
+        "rus": "Младенец",
+        "eng": "Baby"
+    },
+    {
+        "rus": "Внимание",
+        "eng": "Attention"
+    },
+    {
+        "rus": "Рисовать",
+        "eng": "Draw"
+    },
+    {
+        "rus": "Дерево",
+        "eng": "Tree"
+    },
+    {
+        "rus": "Источник",
+        "eng": "Source"
+    },
+    {
+        "rus": "Красный",
+        "eng": "Red"
+    },
+    {
+        "rus": "Приблизительно",
+        "eng": "Nearly"
+    },
+    {
+        "rus": "Выбирать",
+        "eng": "Choose"
+    },
+    {
+        "rus": "Причина",
+        "eng": "Cause"
+    },
+    {
+        "rus": "Волосы",
+        "eng": "Hair"
+    },
+    {
+        "rus": "Точка (зрения)",
+        "eng": "Point"
+    },
+    {
+        "rus": "Век",
+        "eng": "Century"
+    },
+    {
+        "rus": "Докзательства",
+        "eng": "Evidence"
+    },
+    {
+        "rus": "Окно",
+        "eng": "Window"
+    },
+    {
+        "rus": "Сложный",
+        "eng": "Difficult"
+    },
+    {
+        "rus": "Слушать",
+        "eng": "Listen"
+    },
+    {
+        "rus": "Скоро",
+        "eng": "Soon"
+    },
+    {
+        "rus": "Миллиард",
+        "eng": "Billion"
+    },
+    {
+        "rus": "Шанс",
+        "eng": "Chance"
+    },
+    {
+        "rus": "Брат",
+        "eng": "Brother"
+    },
+    {
+        "rus": "Энергия",
+        "eng": "Energy"
+    },
+    {
+        "rus": "Лето",
+        "eng": "Summer"
+    },
+    {
+        "rus": "Сто",
+        "eng": "Hundred"
+    },
+    {
+        "rus": "Доступный",
+        "eng": "Available"
+    },
+    {
+        "rus": "Растение",
+        "eng": "Plant"
+    },
+    {
+        "rus": "Возможность",
+        "eng": "Opportunity"
+    },
+    {
+        "rus": "Короткий",
+        "eng": "Short"
+    },
+    {
+        "rus": "Письмо",
+        "eng": "Letter"
+    },
+    {
+        "rus": "Состояние",
+        "eng": "Condition"
+    },
+    {
+        "rus": "Выбор",
+        "eng": "Choice"
+    },
+    {
+        "rus": "Место",
+        "eng": "Place"
+    },
+    {
+        "rus": "Один/одинокий",
+        "eng": "Single"
+    },
+    {
+        "rus": "Правило",
+        "eng": "Rule"
+    },
+    {
+        "rus": "Дочь",
+        "eng": "Daughter"
+    },
+    {
+        "rus": "Юг",
+        "eng": "South"
+    },
+    {
+        "rus": "Муж",
+        "eng": "Husband"
+    },
+    {
+        "rus": "Пол/этаж",
+        "eng": "Floor"
+    },
+    {
+        "rus": "Население",
+        "eng": "Population"
+    },
+    {
+        "rus": "Звонок",
+        "eng": "Call"
+    },
+    {
+        "rus": "Больница",
+        "eng": "Hospital"
+    },
+    {
+        "rus": "Церковь",
+        "eng": "Church"
+    },
+    {
+        "rus": "Закрывать",
+        "eng": "Close"
+    },
+    {
+        "rus": "Тысяча",
+        "eng": "Thousand"
+    },
+    {
+        "rus": "Текущий",
+        "eng": "Current"
+    },
+    {
+        "rus": "Огонь",
+        "eng": "Fire"
+    },
+    {
+        "rus": "Будущее",
+        "eng": "Future"
+    },
+    {
+        "rus": "Неправильный",
+        "eng": "Wrong"
+    },
+    {
+        "rus": "Защита",
+        "eng": "Defense"
+    },
+    {
+        "rus": "Увеличивать",
+        "eng": "Increase"
+    },
+    {
+        "rus": "Запад",
+        "eng": "West"
+    },
+    {
+        "rus": "Искать",
+        "eng": "Seek"
+    },
+    {
+        "rus": "Предмет",
+        "eng": "Subject"
+    },
+    {
+        "rus": "Отдыхать",
+        "eng": "Rest"
+    },
+    {
+        "rus": "Поведение",
+        "eng": "Behaviour"
+    },
+    {
+        "rus": "Сделка",
+        "eng": "Deal"
+    },
+    {
+        "rus": "Представление",
+        "eng": "Performance"
+    },
+    {
+        "rus": "Сражаться",
+        "eng": "Fight"
+    },
+    {
+        "rus": "Через",
+        "eng": "Throw"
+    },
+    {
+        "rus": "Верх",
+        "eng": "Top"
+    },
+    {
+        "rus": "Быстро",
+        "eng": "Quickly"
+    },
+    {
+        "rus": "Прошлое",
+        "eng": "Past"
+    },
+    {
+        "rus": "Цель",
+        "eng": "Goal"
+    },
+    {
+        "rus": "Второй",
+        "eng": "Second"
+    },
+    {
+        "rus": "Кровать",
+        "eng": "Bed"
+    },
+    {
+        "rus": "Заказ",
+        "eng": "Order"
+    },
+    {
+        "rus": "Заполнять",
+        "eng": "Fill"
+    },
+    {
+        "rus": "Представлять",
+        "eng": "Represent"
+    },
+    {
+        "rus": "Иностранный",
+        "eng": "Foreign"
+    },
+    {
+        "rus": "Падать",
+        "eng": "Drop"
+    },
+    {
+        "rus": "Кровь",
+        "eng": "Blood"
+    },
+    {
+        "rus": "Толкать",
+        "eng": "Push"
+    },
+    {
+        "rus": "Природа",
+        "eng": "Nature"
+    },
+    {
+        "rus": "Цвет",
+        "eng": "Color"
+    },
+    {
+        "rus": "Недавно",
+        "eng": "Recently"
+    },
+    {
+        "rus": "Магазин",
+        "eng": "Store"
+    },
+    {
+        "rus": "Снижать",
+        "eng": "Reduce"
+    },
+    {
+        "rus": "Звук",
+        "eng": "Sound"
+    },
+    {
+        "rus": "Пометка",
+        "eng": "Note"
+    },
+    {
+        "rus": "Прежде чем",
+        "eng": "Before"
+    },
+    {
+        "rus": "Близко",
+        "eng": "Near"
+    },
+    {
+        "rus": "Движение",
+        "eng": "Movement"
+    },
+    {
+        "rus": "Страница",
+        "eng": "Page"
+    },
+    {
+        "rus": "Делиться",
+        "eng": "Share"
+    },
+    {
+        "rus": "Бедный",
+        "eng": "Poor"
+    },
+    {
+        "rus": "Похожий",
+        "eng": "Similar"
+    },
+    {
+        "rus": "Горячий",
+        "eng": "Hot"
+    },
+    {
+        "rus": "Язык",
+        "eng": "Language"
+    },
+    {
+        "rus": "Каждый",
+        "eng": "Each"
+    },
+    {
+        "rus": "Обычно",
+        "eng": "Usually"
+    },
+    {
+        "rus": "Ответ",
+        "eng": "Response"
+    },
+    {
+        "rus": "Животное",
+        "eng": "Animal"
+    },
+    {
+        "rus": "Десятилетие",
+        "eng": "Decade"
+    },
+    {
+        "rus": "Статья",
+        "eng": "Article"
+    },
+    {
+        "rus": "Стрелять",
+        "eng": "Shoot"
+    },
+    {
+        "rus": "Восток",
+        "eng": "East"
+    },
+    {
+        "rus": "Сохранять",
+        "eng": "Save"
+    },
+    {
+        "rus": "Семь",
+        "eng": "Seven"
+    },
+    {
+        "rus": "Художник",
+        "eng": "Artist"
+    },
+    {
+        "rus": "Прочь",
+        "eng": "Away"
+    },
+    {
+        "rus": "Запас",
+        "eng": "Stock"
+    },
+    {
+        "rus": "Восемь",
+        "eng": "Eight"
+    },
+    {
+        "rus": "Лечение",
+        "eng": "Treatment"
+    },
+    {
+        "rus": "Счастливый",
+        "eng": "Happy"
+    },
+    {
+        "rus": "Тоно",
+        "eng": "Exactly"
+    },
+    {
+        "rus": "Защищать",
+        "eng": "Protect"
+    },
+    {
+        "rus": "Лгать",
+        "eng": "Lie"
+    },
+    {
+        "rus": "Размер",
+        "eng": "Size"
+    },
+    {
+        "rus": "Собака",
+        "eng": "Dog"
+    },
+    {
+        "rus": "Готов",
+        "eng": "Ready"
+    },
+    {
+        "rus": "Знак/подпись",
+        "eng": "Sign"
+    },
+    {
+        "rus": "Намерение",
+        "eng": "Thought"
+    },
+    {
+        "rus": "Список",
+        "eng": "List"
+    },
+    {
+        "rus": "Простой",
+        "eng": "Simple"
+    },
+    {
+        "rus": "Качество",
+        "eng": "Quality"
+    },
+    {
+        "rus": "Давление",
+        "eng": "Pressure"
+    },
+    {
+        "rus": "Принимать",
+        "eng": "Accept"
+    },
+    {
+        "rus": "Ответ",
+        "eng": "Answer"
+    },
+    {
+        "rus": "Встреча",
+        "eng": "Meeting"
+    },
+    {
+        "rus": "Подготавливать",
+        "eng": "Prepare"
+    },
+    {
+        "rus": "Успех",
+        "eng": "Success"
+    },
+    {
+        "rus": "Спорить",
+        "eng": "Argue"
+    },
+    {
+        "rus": "Чашка",
+        "eng": "Cup"
+    },
+    {
+        "rus": "Особенно",
+        "eng": "Particularly"
+    },
+    {
+        "rus": "Сумма",
+        "eng": "Amount"
+    },
+    {
+        "rus": "Способность",
+        "eng": "Ability"
+    },
+    {
+        "rus": "Персонал",
+        "eng": "Staff"
+    },
+    {
+        "rus": "Персонаж",
+        "eng": "Character"
+    },
+    {
+        "rus": "Рост",
+        "eng": "Growth"
+    },
+    {
+        "rus": "Убыток",
+        "eng": "Loss"
+    },
+    {
+        "rus": "Степень",
+        "eng": "Degree"
+    },
+    {
+        "rus": "Удивляться",
+        "eng": "Wonder"
+    },
+    {
+        "rus": "Коробка",
+        "eng": "Box"
+    },
+    {
+        "rus": "Выборы",
+        "eng": "Election"
+    },
+    {
+        "rus": "Каждый/все",
+        "eng": "Everybody"
+    },
+    {
+        "rus": "Лежать",
+        "eng": "Lay"
+    },
+    {
+        "rus": "Чувство",
+        "eng": "Feeling"
+    },
+    {
+        "rus": "Счет",
+        "eng": "Bill"
+    },
+    {
+        "rus": "Сообщение",
+        "eng": "Message"
+    },
+    {
+        "rus": "Неудача",
+        "eng": "Fail"
+    },
+    {
+        "rus": "Снаружи",
+        "eng": "Outside"
+    },
+    {
+        "rus": "Прибывать",
+        "eng": "Arrive"
+    },
+    {
+        "rus": "Выгода",
+        "eng": "Benefit"
+    },
+    {
+        "rus": "Имя",
+        "eng": "Name"
+    },
+    {
+        "rus": "Напрямую",
+        "eng": "Forward"
+    },
+    {
+        "rus": "Юрист",
+        "eng": "Lawyer"
+    },
+    {
+        "rus": "Стакан",
+        "eng": "Glass"
+    },
+    {
+        "rus": "Ответ",
+        "eng": "Answer"
+    },
+    {
+        "rus": "Навык",
+        "eng": "Skill"
+    },
+    {
+        "rus": "Сестра",
+        "eng": "Sister"
+    },
+    {
+        "rus": "Преступление",
+        "eng": "Crime"
+    },
+    {
+        "rus": "Сравнивать",
+        "eng": "Compare"
+    },
+    {
+        "rus": "Скучать",
+        "eng": "Miss"
+    },
+    {
+        "rus": "Десять",
+        "eng": "Ten"
+    },
+    {
+        "rus": "Знания",
+        "eng": "Knowledge"
+    },
+    {
+        "rus": "Станция",
+        "eng": "Station"
+    },
+    {
+        "rus": "Синий",
+        "eng": "Blue"
+    },
+    {
+        "rus": "Ясно",
+        "eng": "Clearly"
+    },
+    {
+        "rus": "Обсуждать",
+        "eng": "Discuss"
+    },
+    {
+        "rus": "Правда",
+        "eng": "Truth"
+    },
+    {
+        "rus": "Песня",
+        "eng": "Song"
+    },
+    {
+        "rus": "Пример",
+        "eng": "Example"
+    },
+    {
+        "rus": "Проверять",
+        "eng": "Check"
+    },
+    {
+        "rus": "Окружающая среда",
+        "eng": "Environment"
+    },
+    {
+        "rus": "Нога",
+        "eng": "Leg"
+    },
+    {
+        "rus": "Темный",
+        "eng": "Dark"
+    },
+    {
+        "rus": "Различный",
+        "eng": "Various"
+    },
+    {
+        "rus": "Смеяться",
+        "eng": "Laugh"
+    },
+    {
+        "rus": "Догадываться",
+        "eng": "Guess"
+    },
+    {
+        "rus": "Набор",
+        "eng": "Set"
+    },
+    {
+        "rus": "Учиться/изучать",
+        "eng": "Study"
+    },
+    {
+        "rus": "Доказывать",
+        "eng": "Prove"
+    },
+    {
+        "rus": "Вешать",
+        "eng": "Hang"
+    },
+    {
+        "rus": "Целый",
+        "eng": "Entire"
+    },
+    {
+        "rus": "Забывать",
+        "eng": "Forget"
+    },
+    {
+        "rus": "Требовать",
+        "eng": "Claim"
+    },
+    {
+        "rus": "Удалять",
+        "eng": "Remove"
+    },
+    {
+        "rus": "Помощь",
+        "eng": "Help"
+    },
+    {
+        "rus": "Звучать",
+        "eng": "Sound"
+    },
+    {
+        "rus": "Наслаждаться",
+        "eng": "Enjoy"
+    },
+    {
+        "rus": "Законный",
+        "eng": "Legal"
+    },
+    {
+        "rus": "Холодный",
+        "eng": "Cold"
+    },
+    {
+        "rus": "Главный",
+        "eng": "Main"
+    },
+    {
+        "rus": "Наука",
+        "eng": "Science"
+    },
+    {
+        "rus": "Зеленый",
+        "eng": "Green"
+    },
+    {
+        "rus": "Память",
+        "eng": "Memory"
+    },
+    {
+        "rus": "Карта",
+        "eng": "Card"
+    },
+    {
+        "rus": "Сверх",
+        "eng": "Above"
+    },
+    {
+        "rus": "Сидение",
+        "eng": "Seat"
+    },
+    {
+        "rus": "Клеточка",
+        "eng": "Cell"
+    },
+    {
+        "rus": "След",
+        "eng": "Trail"
+    },
+    {
+        "rus": "Весна",
+        "eng": "Spring"
+    },
+    {
+        "rus": "Посещать",
+        "eng": "Visit"
+    },
+    {
+        "rus": "Управлять",
+        "eng": "Manage"
+    },
+    {
+        "rus": "Заботиться",
+        "eng": "Care"
+    },
+    {
+        "rus": "Избегать",
+        "eng": "Avoid"
+    },
+    {
+        "rus": "Воображать",
+        "eng": "Imagine"
+    },
+    {
+        "rus": "Этой ночью",
+        "eng": "Tonight"
+    },
+    {
+        "rus": "Огромный",
+        "eng": "Huge"
+    },
+    {
+        "rus": "Мяч",
+        "eng": "Ball"
+    },
+    {
+        "rus": "Закрывать",
+        "eng": "Close"
+    },
+    {
+        "rus": "Влияние",
+        "eng": "Impact"
+    },
+    {
+        "rus": "Реагировать",
+        "eng": "Respond"
+    },
+    {
+        "rus": "Утверждение",
+        "eng": "Statement"
+    },
+    {
+        "rus": "Заряжать",
+        "eng": "Charge"
+    },
+    {
+        "rus": "Раскрывать",
+        "eng": "Reveal"
+    },
+    {
+        "rus": "Направление",
+        "eng": "Direction"
+    },
+    {
+        "rus": "Работник",
+        "eng": "Employee"
+    },
+    {
+        "rus": "Глава",
+        "eng": "Head"
+    },
+    {
+        "rus": "Боль",
+        "eng": "Pain"
+    },
+    {
+        "rus": "Мера",
+        "eng": "Measure"
+    },
+    {
+        "rus": "Трясти",
+        "eng": "Shake"
+    },
+    {
+        "rus": "Летать",
+        "eng": "Fly"
+    },
+    {
+        "rus": "Стул",
+        "eng": "Chair"
+    },
+    {
+        "rus": "Рыба",
+        "eng": "Fish"
+    },
+    {
+        "rus": "Камера",
+        "eng": "Camera"
+    },
+    {
+        "rus": "Кусочек",
+        "eng": "Bit"
+    },
+    {
+        "rus": "Вес",
+        "eng": "Weight"
+    },
+    {
+        "rus": "Внезапно",
+        "eng": "Suddenly"
+    },
+    {
+        "rus": "Лечить",
+        "eng": "Treat"
+    },
+    {
+        "rus": "Путешествие",
+        "eng": "Trip"
+    },
+    {
+        "rus": "Вечер",
+        "eng": "Evening"
+    },
+    {
+        "rus": "Внутри",
+        "eng": "Inside"
+    },
+    {
+        "rus": "Лучший",
+        "eng": "Best"
+    },
+    {
+        "rus": "Взрослый",
+        "eng": "Adult"
+    },
+    {
+        "rus": "Волноваться",
+        "eng": "Worry"
+    },
+    {
+        "rus": "Писатель",
+        "eng": "Writer"
+    },
+    {
+        "rus": "Беда",
+        "eng": "Trouble"
+    },
+    {
+        "rus": "Важно",
+        "eng": "Necessary"
+    },
+    {
+        "rus": "Испытание",
+        "eng": "Challenge"
+    },
+    {
+        "rus": "Страх",
+        "eng": "Fear"
+    },
+    {
+        "rus": "Плечо",
+        "eng": "Shoulder"
+    },
+    {
+        "rus": "Средний",
+        "eng": "Middle"
+    },
+    {
+        "rus": "Море",
+        "eng": "Sea"
+    },
+    {
+        "rus": "Мечта/сон",
+        "eng": "Dream"
+    },
+    {
+        "rus": "Журнал",
+        "eng": "Magazine"
+    },
+    {
+        "rus": "Красивый",
+        "eng": "Beautiful"
+    },
+    {
+        "rus": "Имущетсво",
+        "eng": "Property"
+    }
 ]
